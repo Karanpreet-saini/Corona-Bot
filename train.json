@@ -1,0 +1,123 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "NoAnswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "Options",
+         "patterns": ["How could you help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can help you with techniques to prevent Corona Virus", "I can tell Safety Measures against Virus ", "I Can give You Information of Covid-19", "I can tell you about symptoms of coronavirus"],
+         "context": [""]
+        },
+        {"tag": "Sick",
+         "patterns": ["What to do if I feel symptoms of Corona","I have Corona","I am experiencing Symptoms of cold and Corona","I have fever with cold","I feel sick","I have Positive test result for coronavirus","I am covid positive"],
+         "responses": ["Conduct Temperature Check and go for coronavirus test\nRT-PCR or Antigen Test","Practice isolation for at-least two weeks and do not use public transportation\nSanitize hands and Cover face with N-95 Mask"],
+         "context": [""]
+        },
+        {"tag": "SpreadViaFood",
+         "patterns": ["does the virus stick to packaged food?","does it spread on food packaging?","Can the virus that causes COVID-19 be spread through food, including refrigerated or frozen food?","do I need to wash my groceries?","spread via food"],
+         "responses": [ "There is no evidence for transmission of coronavirus associated with food, it is thought that food can be contaminated with the respiratory droplets of infected persons. So, it is always advisable to follow food safety tips while buying groceries from the markets or getting delivered to home.","Yes it can spread in case an infected person contaminates it with virus droplets"],
+         "context": [""]
+        },
+        {"tag": "NegativeTestResults",
+         "patterns": ["Can you have corona virus and still test negative?","if you test negative can you still get COVID-19 later?","Negative test results","Does a negative test mean a person does not have COVID-19?","Can a person test negative and later test positive for COVID-19?", "Considerations for receiving negative test results"],
+         "responses": [ "A negative result means it’s likely you are not infectious, But a negative test is not a guarantee you do not have COVID-19 and there’s still a chance you may be infectious."],
+         "context": [""]
+        },
+        {"tag": "WhyTheName",
+         "patterns": ["Why the name","why was covid-19 used to name this disease?","is covid an abbreviation?","why is covid-19 the name for this disease?","Why is the disease being called coronavirus disease 2019, COVID-19?","is corona virus the same as covid-19?","What is covid 19","What is coronavirus","give me information of virus"],
+         "responses": ["The World Health Organization (WHO) has decided to name the disease caused by the novel coronavirus \"COVID-19\" and refers to the virus that causes it as the \"COVID-19 virus.\"","COVID-19 (coronavirus disease 2019) is a disease caused by a virus named SARS-CoV-2 and was discovered in December 2019 in Wuhan, China."],
+         "context": [""]
+        },
+        {"tag": "RiskToChildren",
+         "patterns": ["covid risk in children","does children get covid","how risky is covid for children and babies","Are children at higher risk of getting sick?","Can corona virus infect an infant?","Are kids at increased risk of infection?"],
+         "responses": ["Most of the cases of COVID-19 in children are mild disease like other viral infections. But there is a high probability, it can be fatal in children with underlying chronic diseases like heart disease, liver diseases, kidney diseases, malnutrition and children with immune deficiency.","While children are as likely to get COVID-19 as adults, kids are less likely to become severely ill. Up to 50% of children and adolescents might have COVID-19 with no symptoms. However, some children with COVID-19 need to be hospitalized, treated in the intensive care unit or placed on a ventilator to help them breathe."],
+         "context": [""]
+        },
+        {"tag": "Prevention",
+         "patterns": ["How to prevent covid 19","How to ensure safety against covid 19","How can i prevent the spread of covid 19","How to safeguard against covid 19","safety measures against covid"],
+         "responses": ["To prevent the spread of COVID-19:\nMaintain a safe distance from others (at least 1 metre), even if they don’t appear to be sick.\nWear a mask in public, especially indoors or when physical distancing is not possible.\nChoose open, well-ventilated spaces over closed ones. Open a window if indoors.\nClean your hands often. Use soap and water, or an alcohol-based hand rub.\nGet vaccinated when it’s your turn. Follow local guidance about vaccination.\nCover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.\nStay home if you feel unwell."],
+         "context": [""]
+        },
+        {"tag": "VirusSurvival",
+         "patterns": ["How long can the virus survive in environment","How long virus survives","how long virus survives on surfaces"],
+         "responses": ["It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other corona viruses. Studies suggest that corona viruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days.","After being expelled from the body, coronaviruses can survive on surfaces for hours to days. If a person touches the dirty surface, they may deposit the virus at the eyes, nose, or mouth where it can enter the body and cause infection."],
+         "context": [""]
+        },
+        {"tag": "CovidSymptoms",
+         "patterns": ["what are symptoms of covid","Symptoms of corona in adults","Signs and Symptoms of Covid-19","how to know if i have got infected with covid what are possible symptoms"],
+         "responses": ["Most common symptoms:\nfever\ncough\ntiredness\nloss of taste or smell\nLess common symptoms:\nsore throat\nheadache\naches and pains\ndiarrhoea\na rash on skin, or discolouration of fingers or toes\nred or irritated eyes\nSerious symptoms:\ndifficulty breathing or shortness of breath\nloss of speech or mobility, or confusion\nchest pain"],
+         "context": [""]
+        },
+        {"tag": "SymptomsInChildren",
+         "patterns": ["Are the symptoms of COVID-19 different in children than in adults?","do children react differently to the virus than adults do?","do kids get different symptoms?","what are the symptoms in children?","Symptoms in children"],
+         "responses": ["Cough.\nFever or chills.\nShortness of breath or difficulty breathing.\nMuscle or body aches.\nSore throat.\nNew loss of taste or smell.\nDiarrhea.\nHeadache","Apart from the common covid symptoms such as Cough and Fever\nParents or guardians should immediately seek urgent or emergency medical care if they notice these warning signs in a child:\n\nDifficulty breathing or catching his or her breath\nInability to keep down any liquids\nNew confusion or inability to awaken\nBluish lips"],
+         "context": [""]
+        },
+        {"tag": "How_many_cases",
+         "patterns": ["How many cases of covid-19 are there in the world","How many cases of corona have been detected","How many cases","How many deaths due to corona","How many recovered from corona"],
+         "responses": ["You can find this information on\nhttps://www.worldometers.info/coronavirus/"],
+         "context": [""]
+        },
+        {"tag": "StepsAfterCovid",
+         "patterns": ["What should i do after getting covid","What are steps after getting sick from covid","I got covid","I have tested positive with covid"],
+         "responses": ["Stay home. Most people with COVID-19 have mild illness and can recover at home without medical care. ...\nTake care of yourself. Get rest and stay hydrated. ...\nStay in touch with your doctor. ...\nAvoid public transportation, ride-sharing, or taxis if possible."],
+         "context": [""]
+        },
+        {"tag": "Tests",
+         "patterns": ["What are the various coronavirus test","Which test should i go for","Which is the best test for covid","what is RT-PCR test and antigen test"],
+         "responses": ["The FDA approved these types of tests for diagnosing a COVID-19 infection:\n\nRT-PCR test. Also called a molecular test, this COVID-19 test detects genetic material of the virus using a lab technique called reverse transcription polymerase chain reaction (PCR). A fluid sample is collected with a nasal swab or a throat swab, or you may spit into a tube to produce a saliva sample.\n\nResults may be available in minutes if analyzed onsite or a few days — or longer in locations with test processing delays — if sent to an outside lab. RT-PCR tests are very accurate when properly performed by a health care professional, but the rapid test can miss some cases.\n\nAntigen test. This COVID-19 test detects certain proteins in the virus. Using a nasal swab to get a fluid sample, antigen tests can produce results in minutes. Others may be sent to a lab for analysis.\n\nA positive antigen test result is considered accurate when instructions are carefully followed. But there's an increased chance of false-negative results — meaning it's possible to be infected with the virus but have a negative result. Depending on the situation, the health care provider may recommend a RT-PCR test to confirm a negative antigen test result."],
+         "context": [""]
+        },
+        {"tag": "incubation period",
+         "patterns": ["how long it takes the corona virus to show symptoms","what is incubation period of virus","How long should i isolate myself","How long covid 19 takes to show symptoms "],
+         "responses": ["The incubation period means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days."],
+         "context": [""]
+        },
+        {"tag": "longCovid",
+         "patterns": ["What is long Covid"," What is my risk of having long COVID-19 if I become infected","does being vaccinated prevent long covid","How to prevent long covid"],
+         "responses": ["What is a post-COVID-19 condition?\nIn some people with COVID-19, symptoms persist for weeks or even months after recovering from the acute illness. This is referred to as ‘post-COVID-19 condition’, sometimes described as ‘long COVID’.\nThe researchers found that vaccination seemed to reduce the likelihood of long COVID in people who had been infected by only about 15%.\n"],
+         "context": [""]
+        },
+        {"tag": "WhatAreVaccine",
+         "patterns": ["what are covid 19 vaccines","what vaccine are available for Covid","which vaccine should i go for","Can vaccine prevent covid","Which vaccine are available"],
+         "responses": ["Getting vaccinated could save your life. COVID-19 vaccines provide strong protection against serious illness, hospitalization and death. There is also some evidence that being vaccinated will make it less likely that you will pass the virus on to others, which means your decision to get the vaccine also protects those around you.\n\n\nThe vaccines available in India are : 1. COVAXIN      2.COVISHIELD     3.COVISHIELD      4.COVOVAX      5.ZyCoV-D"]
+        },
+        {"tag": "AreVaccineSafe",
+         "patterns": ["Is there any side effects of taking vaccine","Are vaccines safe","How safe are these vaccines"],
+         "responses": ["Like with any vaccine, some people will experience mild to moderate side effects after being vaccinated against COVID-19. This is a normal sign that the body is developing protection. Side effects to COVID-19 vaccines include a fever, tiredness, headache, muscle ache, chills, diarrhoea and pain or redness at the injection site.\nThese vaccines are available\nThe Pfizer/BioNTech Comirnaty vaccine, 31 December 2020.\nThe SII/COVISHIELD and AstraZeneca/AZD1222 vaccines, 16 February 2021.\nThe Janssen/Ad26.COV 2.S vaccine developed by Johnson & Johnson, 12 March 2021.\nThe Moderna COVID-19 vaccine (mRNA 1273), 30 April 2021.\nThe Sinopharm COVID-19 vaccine, 7 May 2021.\nThe Sinovac-CoronaVac vaccine, 1 June 2021.\nThe Bharat Biotech BBV152 COVAXIN vaccine, 3 November 2021. \nThe Covovax (NVX-CoV2373) vaccine, 17 December 2021.\nThe Nuvaxovid (NVX-CoV2373) vaccine, 20 December 2021\n "],
+         "context": [""]
+        },
+        {"tag": "HowToGetVaccine",
+         "patterns": ["Where can i get vaccine from","How to get vaccine","where is vaccine available","how can i get vaccine for corona virus"],
+         "responses": ["Vaccines are available from Government and Private Health Facilities as notified, known as COVID Vaccination Centres (CVCs).\nOnline registration and appointment can be done through Co-WIN portal.","From one mobile phone number, one can register 4 people, however, each person will need their own photo identification document.\nThrough the portal, you can find out the list of available CVCs and dates and time of available vaccination slots, to book an appointment as per your choice. You will need an OTP verification prior to registration and a confirmation slip/token will be generated after registration. You will also get a confirmatory sms later.","Those who cannot get themselves registered online can contact their local Government health workers, who will help the beneficiaries to the Government CVC for on the spot registration, appointment, verification and vaccination on the same day. ","Vaccines are available from Government and Private Health Facilities as notified, known as COVID Vaccination Centres (CVCs),\nThrough the portal, you can find out the list of available CVCs and dates and time of available vaccination slots, to book an appointment as per your choice. You will need an OTP verification prior to registration and a confirmation slip/token will be generated after registration. You will also get a confirmatory sms later.\nThose who cannot get themselves registered online can contact their local Government health workers, who will help the beneficiaries to the Government CVC for on the spot registration, appointment, verification and vaccination on the same day."],
+         "context": [""]
+        },
+        {"tag": "RecoverFromCorona",
+         "patterns": ["Treatment of corona in hospital using medicines","How to treat severe cases of corona virus","what steps are needed to recover from severe covid 19","How to recover from severe case of covid 19","what treatment is there for dangerous case of covid","how to treat coronavirus in hospitals","medicines to treat severe cases of coronavirus","what medicines are there to treat coronavirus"],
+         "responses": ["The FDA has granted emergency-use authorization for two prescription antiviral treatments administered orally as pills: Paxlovid (nirmatrelvir tablets and ritonavir tablets) by Pfizer and Lagevrio (molnupiravir) by Merck. These treatments work differently but are both used outside of a hospital setting and in individuals who have tested positive for COVID-19 and are at high risk for COVID-19 complications.","Remdesivir (Veklury), the antiviral infusion medication that doctors have used to treat hospitalized COVID-19 patients since early in the pandemic, is now an option for people recovering from COVID-19 at home.\n\nIn 2022, the FDA expanded eligibility for remdesivir to adults, children, and babies with mild or moderate COVID-19 who are at high risk of severe illness.\nHealthcare providers administer remdesivir with an IV in sessions that take place over three consecutive days, requiring patients to make repeat visits to a hospital or outpatient clinic."],
+         "context": [""]
+        },
+        {"tag": "NaturalRemedies",
+         "patterns": ["How to treat covid at home","treatment of corona at home","what steps are needed to recover from mild to moderate covid 19","How to recover from mild case of covid 19","what treatment is there for mild and moderate case of covid","how to treat coronavirus at home","methods to treat mild case of coronavirus","what natural methods are there to treat coronavirus"],
+         "responses": ["Natural Remedies for COVID-19 Symptoms\nThe following strategies can be part of an overall treatment plan.\nShortness of breath: If being short of breath makes you anxious, your doctor may advise breathing exercises that can help, perform a simple breathing technique to help with COVID-19-related stress.\nCough: For help managing a cough, try cough drops, Vicks VapoRub, and hot water or hot tea with lemon.\nDehydration : To reduce the risk of dehydration, drink fluids regularly and keep eating. Aim for at least 2 liters of water every day. If you are sweating a lot from a fever, you may want to supplement water with an electrolyte-containing sports drink, such as Gatorade, according to Geisinger Health System.\nEating issues : To make eating easier, opt for foods that are easy to digest and relatively bland, such as chicken noodle or vegetable broth soup, avocados, or toast. While loss of taste and smell can make food unappetizing, good nutrition will aid your recovery.","Along with taking home remedies such as Vicks Vaporub and soups\nOver the counter medicines can help like acetaminophen (Tylenol), naproxen (Aleve), or ibuprofen (Advil, Motrin) for Fever, body aches, or headache"],
+         "context": [""]
+        }
+]
+}
+
